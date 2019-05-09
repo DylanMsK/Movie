@@ -23,7 +23,7 @@ class Score(models.Model):
 class Movie(models.Model):
     imdbID = models.CharField(max_length=100)
     title = models.CharField(max_length=100)
-    rated = models.CharField(max_length=20)
+    rated = models.CharField(max_length=20, null=True, blank=True)
     released = models.DateField()
     runtime = models.IntegerField()
     Genre = models.ManyToManyField(Genre, related_name='genre_movies')
@@ -32,7 +32,7 @@ class Movie(models.Model):
     poster = models.TextField()
     country = models.OneToOneField(Country, on_delete=models.CASCADE)
     rating = models.TextField()
-    imdbscore = models.DecimalField(max_digits=2, decimal_places=1)
+    imdbscore = models.DecimalField(max_digits=2, decimal_places=1, null=True, blank=True)
     score = models.ForeignKey(Score, related_name='score_movie', on_delete=models.CASCADE, null=True, blank=True)
     production = models.CharField(max_length=30)
 
