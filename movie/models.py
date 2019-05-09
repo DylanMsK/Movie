@@ -6,14 +6,14 @@ class Country(models.Model):
     code = models.CharField(max_length=30)
 
     def __str__(self):
-        return f'Country: {self.name}, Country Code: {self.code}'
+        return self.name
 
 
 class Genre(models.Model):
     name = models.CharField(max_length=30)
 
     def __str__(self):
-        return f'Genre: {self.name}'
+        return self.name
 
 
 class Score(models.Model):
@@ -33,7 +33,7 @@ class Movie(models.Model):
     country = models.OneToOneField(Country, on_delete=models.CASCADE)
     rating = models.TextField()
     imdbscore = models.DecimalField(max_digits=2, decimal_places=1)
-    score = models.ForeignKey(Score, related_name='score_movie', on_delete=models.CASCADE)
+    score = models.ForeignKey(Score, related_name='score_movie', on_delete=models.CASCADE, null=True, blank=True)
     production = models.CharField(max_length=30)
 
     def __str__(self):
