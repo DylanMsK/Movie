@@ -38,3 +38,14 @@ class Movie(models.Model):
 
     def __str__(self):
         return f'title: {self.title}, released: {self.released}'
+
+
+class BoxOffice(models.Model):
+    year = models.IntegerField()
+    weak = models.IntegerField()
+    rank = models.IntegerField()
+    country = models.ForeignKey(Country, on_delete=models.CASCADE)
+    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f'[{self.country}] {self.year}년/{self.weak}주차 {self.rank}위 {self.movie}'
