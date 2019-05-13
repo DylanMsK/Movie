@@ -41,10 +41,10 @@ class Movie(models.Model):
 
 
 class BoxOffice(models.Model):
+    country = models.ForeignKey(Country, on_delete=models.CASCADE)
     year = models.IntegerField()
     weak = models.IntegerField()
     rank = models.IntegerField()
-    country = models.ForeignKey(Country, on_delete=models.CASCADE)
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
 
     def __str__(self):

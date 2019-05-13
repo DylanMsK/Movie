@@ -12,3 +12,11 @@ def movie_list(request):
     movies = Movie.objects.all()
     serializer = MovieSerializer(movies, many=True)
     return Response(serializer.data)
+
+
+def country_box_office(request):
+    return
+
+
+def movie_detail(request):
+    return
