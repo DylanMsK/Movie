@@ -1,0 +1,691 @@
+[
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "imdbID": "tt4154796",
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-04-26",
+    "runtime": 181,
+    "actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
+    "plot": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"8.9/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"95%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"78/100\"\r\n    }\r\n  ]",
+    "imdbRating": "8.9",
+    "score": null,
+    "production": "Marvel Studios",
+    "Genre": [
+      1,
+      3,
+      11,
+      22
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 2,
+  "fields": {
+    "imdbID": "tt6722030",
+    "title": "The Intruder",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-05-03",
+    "runtime": 102,
+    "actors": "Meagan Good, Dennis Quaid, Michael Ealy, Joseph Sikora",
+    "plot": "A young married couple buy a beautiful house on several acres of land only to find out that the man they bought it from refuses to let go of the property.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzg1ZjcxNjgtMTliNC00NzU3LWE3NGMtZTBjMWFmYzk4OWE0XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg",
+    "ratings": "[\r\n]",
+    "imdbRating": null,
+    "score": null,
+    "production": "Screen Gems",
+    "Genre": [
+      9,
+      15,
+      18,
+      26
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 3,
+  "fields": {
+    "imdbID": "tt2139881",
+    "title": "Long Shot",
+    "year": 2019,
+    "rated": "R",
+    "released": "2019-05-03",
+    "runtime": 125,
+    "actors": "Charlize Theron, Seth Rogen, June Diane Raphael, O'Shea Jackson Jr.",
+    "plot": "When Fred Flarsky reunites with his first crush, one of the most influential women in the world, Charlotte Field, he charms her. As she prepares to make a run for the Presidency, Charlotte hires Fred as her speechwriter and sparks fly.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmE4Mzk0OWQtMDI1OS00NDU3LWI2M2YtNzc1MGMxZGI3ZTE1XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"7.2/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"83%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"70/100\"\r\n    }\r\n  ]",
+    "imdbRating": "7.2",
+    "score": null,
+    "production": "Summit Entertainment",
+    "Genre": [
+      6,
+      21
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 4,
+  "fields": {
+    "imdbID": "tt1946502",
+    "title": "UglyDolls",
+    "year": 2017,
+    "rated": "PG",
+    "released": "2019-05-02",
+    "runtime": 87,
+    "actors": "Kelly Clarkson, Nick Jonas, Janelle Mon\u00e1e, Blake Shelton",
+    "plot": "An animated adventure in which the free-spirited UglyDolls confront what it means to be different, struggle with a desire to be loved, and ultimately discover who you truly are is what matters most.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTc0NjE2ODM2OV5BMl5BanBnXkFtZTgwMjQyNDUzNzM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"36%\"\r\n    }\r\n  ]",
+    "imdbRating": null,
+    "score": null,
+    "production": "STXfilms",
+    "Genre": [
+      3,
+      4,
+      6,
+      10,
+      11,
+      16
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 5,
+  "fields": {
+    "imdbID": "tt4154664",
+    "title": "Captain Marvel",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-05-08",
+    "runtime": 123,
+    "actors": "Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Jude Law",
+    "plot": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"7.1/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"78%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"64/100\"\r\n    }\r\n  ]",
+    "imdbRating": "7.1",
+    "score": null,
+    "production": "Marvel Studios",
+    "Genre": [
+      1,
+      3,
+      22
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 6,
+  "fields": {
+    "imdbID": "tt7083526",
+    "title": "Breakthrough",
+    "year": 2019,
+    "rated": "PG",
+    "released": "2019-04-17",
+    "runtime": 116,
+    "actors": "Topher Grace, Chrissy Metz, Marcel Ruiz, Josh Lucas",
+    "plot": "When her 14-year-old son drowns in a lake, a faithful mother prays for him to come back from the brink of death and be healed.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU2ODk2ODEzMV5BMl5BanBnXkFtZTgwMzk1OTk4NjM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"5.7/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"65%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"47/100\"\r\n    }\r\n  ]",
+    "imdbRating": "5.7",
+    "score": null,
+    "production": "20th Century Fox",
+    "Genre": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 7,
+  "fields": {
+    "imdbID": "tt4913966",
+    "title": "The Curse of La Llorona",
+    "year": 2019,
+    "rated": "R",
+    "released": "2019-04-19",
+    "runtime": 93,
+    "actors": "Linda Cardellini, Roman Christou, Jaynee-Lynne Kinchen, Raymond Cruz",
+    "plot": "Ignoring the eerie warning of a troubled mother suspected of child endangerment, a social worker and her own small kids are soon drawn into a frightening supernatural realm.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTkxODk1MTM3Nl5BMl5BanBnXkFtZTgwNDUxNzg0NzM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"5.9/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"38%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"40/100\"\r\n    }\r\n  ]",
+    "imdbRating": "5.9",
+    "score": null,
+    "production": "New Line Cinema",
+    "Genre": [
+      15,
+      18,
+      26
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 8,
+  "fields": {
+    "imdbID": "tt0448115",
+    "title": "Shazam!",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-04-05",
+    "runtime": 132,
+    "actors": "Zachary Levi, Mark Strong, Asher Angel, Jack Dylan Grazer",
+    "plot": "Young Billy Batson finds himself gifted with the power of the wizard Shazam to fight against the forces of evil. With the wisdom of Solomon, the strength of Hercules, the stamina of Atlas, the power of Zeus, the courage of Achilles and speed of Mercury, he is the holder of the power of S.H.A.Z.A.M; he is Captain Marvel.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTE0Yjc1NzUtMjFjMC00Y2I3LTg3NGYtNGRlMGJhYThjMTJmXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"7.5/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"90%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"71/100\"\r\n    }\r\n  ]",
+    "imdbRating": "7.5",
+    "score": null,
+    "production": "New Line Cinema",
+    "Genre": [
+      1,
+      3,
+      6,
+      11
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 9,
+  "fields": {
+    "imdbID": "tt3861390",
+    "title": "Dumbo",
+    "year": 2019,
+    "rated": "PG",
+    "released": "2019-03-29",
+    "runtime": 112,
+    "actors": "Colin Farrell, Michael Keaton, Danny DeVito, Eva Green",
+    "plot": "A young elephant, whose oversized ears enable him to fly, helps save a struggling circus, but when the circus plans a new venture, Dumbo and his friends discover dark secrets beneath its shiny veneer.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjMxMDE0MDI1Ml5BMl5BanBnXkFtZTgwMzExNTU3NjM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"6.6/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"47%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"51/100\"\r\n    }\r\n  ]",
+    "imdbRating": "6.6",
+    "score": null,
+    "production": "Walt Disney Pictures",
+    "Genre": [
+      3,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 10,
+  "fields": {
+    "imdbID": "tt8085790",
+    "title": "Little",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-04-12",
+    "runtime": 109,
+    "actors": "Regina Hall, Issa Rae, Marsai Martin, Justin Hartley",
+    "plot": "A woman is transformed into her younger self at a point in her life when the pressures of adulthood become too much to bear.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NDYwNzkzMV5BMl5BanBnXkFtZTgwNjAyMjMxNzM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"5.4/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"46%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"49/100\"\r\n    }\r\n  ]",
+    "imdbRating": "5.4",
+    "score": null,
+    "production": "Universal Pictures",
+    "Genre": [
+      6,
+      11,
+      21
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 11,
+  "fields": {
+    "imdbID": "tt8201404",
+    "title": "Nous finirons ensemble",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-05-01",
+    "runtime": 135,
+    "actors": "Fran\u00e7ois Cluzet, Marion Cotillard, Gilles Lellouche, Laurent Lafitte",
+    "plot": "The result of the small handkerchiefs \\\"Petits mouchoirs\\\", 7 years later. The band, which erupted, is found on the occasion of the anniversary surprise organized for Max.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzI0NzIzMGItMDQ1NC00NzEyLTg2M2ItYmNhYmJlNDkwM2JkXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"6.7/10\"\r\n    }\r\n  ]",
+    "imdbRating": "6.7",
+    "score": null,
+    "production": "Alain Attal",
+    "Genre": [
+      6,
+      9
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 12,
+  "fields": {
+    "imdbID": "tt4126476",
+    "title": "After",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-04-12",
+    "runtime": 105,
+    "actors": "Hero Fiennes Tiffin, Josephine Langford, Selma Blair, Jennifer Beals",
+    "plot": "Tessa Young is an 18 year old college student with a simple life, excellent grades, and a sweet boyfriend. She always has things planned out ahead of time, until she meets a rude boy named Hardin, with too many tattoos and piercings who shatters her plans.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGUwMjk3YzktNDI0Yy00MzFiLWFjNmEtYTA2ODVjMzNhODhjXkEyXkFqcGdeQXVyOTQ1MDI4MzY@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"5.9/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"22%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"30/100\"\r\n    }\r\n  ]",
+    "imdbRating": "5.9",
+    "score": null,
+    "production": "Aviron Pictures",
+    "Genre": [
+      9,
+      21
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 13,
+  "fields": {
+    "imdbID": "tt6428676",
+    "title": "Wonder Park",
+    "year": 2019,
+    "rated": "PG",
+    "released": "2019-03-15",
+    "runtime": 85,
+    "actors": "Sofia Mali, Jennifer Garner, Ken Hudson Campbell, Kenan Thompson",
+    "plot": "Wonder Park tells the story of an amusement park where the imagination of a wildly creative girl named June comes alive.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjI5MTQ5NzE4Nl5BMl5BanBnXkFtZTgwNTk2MDA5NjM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"5.7/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"33%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"46/100\"\r\n    }\r\n  ]",
+    "imdbRating": "5.7",
+    "score": null,
+    "production": "Paramount Animation",
+    "Genre": [
+      3,
+      4,
+      6,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 14,
+  "fields": {
+    "imdbID": "tt6563576",
+    "title": "The Queen's Corgi",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-04-03",
+    "runtime": 85,
+    "actors": "Jack Whitehall, Julie Walters, Tom Courtenay, Jon Culshaw",
+    "plot": "\"The Queen's Corgi\" is about the adventure of Rex, the British monarch's most beloved dog, who loses track of his mistress and stumbles across a clan with dogs of all kinds confronting and ...",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmQzNzZkZmEtYzhjMS00Y2RjLWE3MmYtZmU2MjlkMDU2ODRhXkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"5.5/10\"\r\n    }\r\n  ]",
+    "imdbRating": "5.5",
+    "score": null,
+    "production": "Belga Productions",
+    "Genre": [
+      4
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 15,
+  "fields": {
+    "imdbID": "tt0837563",
+    "title": "Pet Sematary",
+    "year": 2019,
+    "rated": "R",
+    "released": "2019-04-05",
+    "runtime": 101,
+    "actors": "Jason Clarke, Amy Seimetz, John Lithgow, Jet\u00e9 Laurence",
+    "plot": "Dr. Louis Creed and his wife, Rachel, relocate from Boston to rural Maine with their two young children. The couple soon discover a mysterious burial ground hidden deep in the woods near their new home.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjUyNjg1ODIwMl5BMl5BanBnXkFtZTgwNjMyOTYzNzM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"6.2/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"57/100\"\r\n    }\r\n  ]",
+    "imdbRating": "6.2",
+    "score": null,
+    "production": "Paramount Pictures France",
+    "Genre": [
+      15,
+      18,
+      26
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 16,
+  "fields": {
+    "imdbID": "tt9235038",
+    "title": "Tanguy, le retour",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-04-10",
+    "runtime": 93,
+    "actors": "Sabine Az\u00e9ma, Andr\u00e9 Dussollier, \u00c9ric Berger",
+    "plot": "16 years later, Tanguy, now 44, returns to his parents' house with his daughter Zhu under his arm because Me\u00ef Lin left him. Disappointed to see their \"little one\" in this state, Paul and Edith do everything to give him a taste for life, without realizing that by doing so, they braid the rope to hang themselves. Because Tanguy is starting to feel good with his parents .",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjMwZWQyNmItNjkxNS00Njc2LThjMzQtZDRlMmRjMmQ4OGQ1XkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_UY268_CR7,0,182,268_AL_.jpg",
+    "ratings": "[\r\n]",
+    "imdbRating": null,
+    "score": null,
+    "production": "SND",
+    "Genre": [
+      6
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 17,
+  "fields": {
+    "imdbID": "tt9501310",
+    "title": "Detective Conan The Fist Of Blue Sapphire",
+    "year": 2019,
+    "rated": "12",
+    "released": "2019-04-12",
+    "runtime": 101,
+    "actors": "Yu Asakawa, Kurt Common, Ryan Drees",
+    "plot": "The world's greatest blue sapphire, the \"blue lapis fist\", said to have sunk in a pirate ship in the late 19th century, on the coasts of Singapore. A local millionaire plots to retrieve it, and when it's exhibited in an exhibition at the Singaporean Marina Sands hotel, a murder takes place.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmRmZDc2OGYtNTNiOC00ZjMxLTg4MzItZWE5ZDk4ZGQwZTEyXkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_UY98_CR1,0,67,98_AL_.jpg",
+    "ratings": "[\r\n]",
+    "imdbRating": "7.7",
+    "score": null,
+    "production": "Toho",
+    "Genre": [
+      1,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 18,
+  "fields": {
+    "imdbID": "tt5884052",
+    "title": "Pok\u00e9mon Detective Pikachu",
+    "year": 2019,
+    "rated": "PG",
+    "released": "2019-05-09",
+    "runtime": 104,
+    "actors": "Ryan Reynolds, Justice Smith, Kathryn Newton, Bill Nighy",
+    "plot": "In a world where people collect Pok\u00e9mon to do battle, a boy comes across an intelligent talking Pikachu who seeks to be a detective.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDU4Mzc3NzE5NV5BMl5BanBnXkFtZTgwMzE1NzI1NzM@._V1_SX300.jpg",
+    "ratings": "[\r\n]",
+    "imdbRating": "7.1",
+    "score": null,
+    "production": "Warner Bros. Pictures",
+    "Genre": [
+      1,
+      3,
+      6,
+      10,
+      18,
+      22
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 19,
+  "fields": {
+    "imdbID": "tt3361792",
+    "title": "Tolkien",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-05-10",
+    "runtime": 112,
+    "actors": "Lily Collins, Nicholas Hoult, Patrick Gibson, Pam Ferris",
+    "plot": "Tolkien explores the formative years of the orphaned author as he finds friendship, love and artistic inspiration among a group of fellow outcasts at school.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjUzNzA1MDczOF5BMl5BanBnXkFtZTgwODY5OTI2NzM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"53%\"\r\n    }\r\n  ]",
+    "imdbRating": "7.0",
+    "score": null,
+    "production": "Fox Searchlight Pictures",
+    "Genre": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 20,
+  "fields": {
+    "imdbID": "tt7615302",
+    "title": "Red Joan",
+    "year": 2019,
+    "rated": "R",
+    "released": "2019-04-19",
+    "runtime": 101,
+    "actors": "Judi Dench, Sophie Cookson, Stephen Campbell Moore, Tom Hughes",
+    "plot": "The story of Joan Stanley, who was exposed as the KGB's longest-serving British spy.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTBhMDZjZmQtNmJjYS00OWI0LTkxM2ItN2ExZTc3NzkxZmJlXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"6.2/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"44/100\"\r\n    }\r\n  ]",
+    "imdbRating": "6.2",
+    "score": null,
+    "production": "Lionsgate",
+    "Genre": [
+      5,
+      9,
+      21
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 21,
+  "fields": {
+    "imdbID": "tt7014006",
+    "title": "Eighth Grade",
+    "year": 2018,
+    "rated": "R",
+    "released": "2018-08-03",
+    "runtime": 93,
+    "actors": "Elsie Fisher, Josh Hamilton, Emily Robinson, Jake Ryan",
+    "plot": "An introverted teenage girl tries to survive the last week of her disastrous eighth grade year before leaving to start high school.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzVlYzgxYjAtYzhhZi00MDc1LTlkZDMtMTRhZWI0MTg5YTRjXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"7.5/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"99%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"90/100\"\r\n    }\r\n  ]",
+    "imdbRating": "7.5",
+    "score": null,
+    "production": "A24",
+    "Genre": [
+      6,
+      9
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 22,
+  "fields": {
+    "imdbID": "tt8739752",
+    "title": "The Collini Case",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-04-18",
+    "runtime": 118,
+    "actors": "Franco Nero, Alexandra Maria Lara, Elyas M'Barek, Heiner Lauterbach",
+    "plot": "A young lawyer stumbles upon a vast conspiracy while investigating a brutal murder case.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjc1YTU5ODUtOWExYy00NzNlLTgyNWItN2M5NWM3NzhlMDNlXkEyXkFqcGdeQXVyMDAwMDAwNA@@._V1_UY268_CR3,0,182,268_AL_.jpg",
+    "ratings": "[\r\n]",
+    "imdbRating": "7.2",
+    "score": null,
+    "production": "Constantin Film",
+    "Genre": [
+      7,
+      9,
+      26
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 23,
+  "fields": {
+    "imdbID": "tt6556670",
+    "title": "Serial (Bad) Weddings 2",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-01-30",
+    "runtime": 99,
+    "actors": "Christian Clavier, Chantal Lauby, Ary Abittan",
+    "plot": "Claude and Marie Verneuil face a new crisis. The four spouses of their daughters, David, Rachid, Chao and Charles decided to leave France for various reasons. Here they are imagining their lives elsewhere.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmQ0MTRiNmUtYTAyYi00NGViLWExYjEtYzQwZWEyZWFmMDQ4XkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_UY268_CR7,0,182,268_AL_.jpg",
+    "ratings": "[\r\n]",
+    "imdbRating": "6.2",
+    "score": null,
+    "production": "Neue Visionen",
+    "Genre": [
+      6,
+      9
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 24,
+  "fields": {
+    "imdbID": "tt6938828",
+    "title": "At Eternity's Gate",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-03-29",
+    "runtime": 111,
+    "actors": "Willem Dafoe, Rupert Friend, Oscar Isaac, Mads Mikkelsen",
+    "plot": "A look at the life of painter Vincent van Gogh during the time he lived in Arles and Auvers-sur-Oise, France.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTRmZGJiZjUtMGJjYi00MzZhLTkzYjUtODE1Yjk5ZDRiODhlXkEyXkFqcGdeQXVyODAzODU1NDQ@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"6.9/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"76/100\"\r\n    }\r\n  ]",
+    "imdbRating": "6.9",
+    "score": null,
+    "production": "DCM Film",
+    "Genre": [
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 25,
+  "fields": {
+    "imdbID": "tt6513120",
+    "title": "Fighting With My Family",
+    "year": 2019,
+    "rated": "PG-13",
+    "released": "2019-02-22",
+    "runtime": 108,
+    "actors": "Dwayne Johnson, Thomas Whilley, Tori Ellen Ross, Nick Frost",
+    "plot": "A former wrestler and his family make a living performing at small venues around the country while his kids dream of joining World Wrestling Entertainment.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjQ3MTk4Nzc1M15BMl5BanBnXkFtZTgwMTEwMDU5NjM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"7.5/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"93%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"68/100\"\r\n    }\r\n  ]",
+    "imdbRating": "7.5",
+    "score": null,
+    "production": "MGM",
+    "Genre": [
+      5,
+      6,
+      9,
+      24
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 26,
+  "fields": {
+    "imdbID": "tt7555072",
+    "title": "Top End Wedding",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-01-30",
+    "runtime": 113,
+    "actors": "Gwilym Lee, Kerry Fox, Miranda Tapsell, Huw Higginson",
+    "plot": "Lauren and Ned are engaged, they are in love, and they have just ten days to find Lauren's mother who has gone AWOL somewhere in the remote far north of Australia, reunite her parents and pull off their dream wedding.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjU0NDk0N2EtNTliZS00MjNmLTk0M2MtYTMzOTUxMGQwZWI3XkEyXkFqcGdeQXVyMzE0MTQ2NzQ@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"7.5/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"91%\"\r\n    }\r\n  ]",
+    "imdbRating": "7.5",
+    "score": null,
+    "production": "Films Boutique",
+    "Genre": [
+      6
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 27,
+  "fields": {
+    "imdbID": "tt10112466",
+    "title": "Peppa Pig: Festival of Fun",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-04-05",
+    "runtime": 68,
+    "actors": "Harley Bird, Oliver May, Alice May, Morwenna Banks, Richard Ridings",
+    "plot": "Join the party with Peppa and George in their brand new adventures as they dance in the mud at a children\u2019s festival, celebrate Grandpa Pig\u2019s birthday at a restaurant for the first time, and take a trip to the cinema to see Super Potato\u2019s big movie feature!",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzQ0M2ZjODEtNzViNS00MGY0LTk2NDctNzViZDBjMmExMWFlXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg\",",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"5.1/10\"\r\n    }\r\n  ]",
+    "imdbRating": "5.1",
+    "score": null,
+    "production": "eOne",
+    "Genre": [
+      4,
+      10
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 28,
+  "fields": {
+    "imdbID": "tt2690226",
+    "title": "The Chaperone",
+    "year": 2018,
+    "rated": null,
+    "released": "2019-03-29",
+    "runtime": 103,
+    "actors": "Miranda Otto, Haley Lu Richardson, Elizabeth McGovern, Blythe Danner",
+    "plot": "In the early 1920s, a Kansas woman finds her life forever changed when she accompanies a young dancer on her fame-seeking journey to New York City.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NDM1NDY4Ml5BMl5BanBnXkFtZTgwMDc3MzA0NzM@._V1_SX300.jpg",
+    "ratings": "[\r\n    {\r\n      \"Source\": \"Internet Movie Database\",\r\n      \"Value\": \"6.9/10\"\r\n    },\r\n    {\r\n      \"Source\": \"Rotten Tomatoes\",\r\n      \"Value\": \"45%\"\r\n    },\r\n    {\r\n      \"Source\": \"Metacritic\",\r\n      \"Value\": \"48/100\"\r\n    }\r\n  ]",
+    "imdbRating": "6.9",
+    "score": null,
+    "production": "PBS Distribution",
+    "Genre": [
+      9
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 29,
+  "fields": {
+    "imdbID": "tt8569390",
+    "title": "Farewell to the Night",
+    "year": 2019,
+    "rated": null,
+    "released": "2019-04-24",
+    "runtime": 104,
+    "actors": "Catherine Deneuve, Kacey Mottet Klein, Oulaya Amamra",
+    "plot": "Muriel farms horses and owns an almond plantation. When her grandson comes to visit her for one last time before he leaves for Canada. She learns that he has dark secrets.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzAyYzM3MWQtODkyNy00YmU2LThhMmYtOWIzNzljMzQ3MWY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_UY268_CR17,0,182,268_AL_.jpg",
+    "ratings": "[\r\n]",
+    "imdbRating": "6.4",
+    "score": null,
+    "production": "Universal Int'l",
+    "Genre": [
+      9
+    ]
+  }
+}
+]

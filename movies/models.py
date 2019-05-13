@@ -23,6 +23,7 @@ class Score(models.Model):
 class Movie(models.Model):
     imdbID = models.CharField(max_length=100)
     title = models.CharField(max_length=100)
+    year = models.IntegerField()
     rated = models.CharField(max_length=20, null=True, blank=True)
     released = models.DateField()
     runtime = models.IntegerField()
@@ -30,14 +31,13 @@ class Movie(models.Model):
     actors = models.TextField()
     plot = models.TextField()
     poster = models.TextField()
-    country = models.OneToOneField(Country, on_delete=models.CASCADE)
-    rating = models.TextField()
-    imdbscore = models.DecimalField(max_digits=2, decimal_places=1, null=True, blank=True)
+    ratings = models.TextField()
+    imdbRating = models.DecimalField(max_digits=2, decimal_places=1, null=True, blank=True)
     score = models.ForeignKey(Score, related_name='score_movie', on_delete=models.CASCADE, null=True, blank=True)
     production = models.CharField(max_length=30)
 
     def __str__(self):
-        return f'title: {self.title}, released: {self.released}'
+        return self.title
 
 
 class BoxOffice(models.Model):

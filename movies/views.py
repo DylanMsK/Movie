@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 from .models import Movie
+from .forms import MovieCreationForm
 from .serializer import MovieSerializer
 
 from rest_framework.response import Response
@@ -12,6 +13,14 @@ def movie_list(request):
     movies = Movie.objects.all()
     serializer = MovieSerializer(movies, many=True)
     return Response(serializer.data)
+
+
+# def new_movie(request):
+#     if request.method == 'POST':
+#         form = MovieCreationForm(request.POST)
+#         if form.is_valid():
+#             movie = Movie(**form.cleaned_data)
+#             movie
 
 
 def country_box_office(request):
