@@ -548,5 +548,115 @@
     "rank": 10,
     "movie": 5
   }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 51,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 1,
+    "movie": 1
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 52,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 2,
+    "movie": 30
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 53,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 3,
+    "movie": 31
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 54,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 4,
+    "movie": 32
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 55,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 5,
+    "movie": 33
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 56,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 6,
+    "movie": 34
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 57,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 7,
+    "movie": 13
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 58,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 8,
+    "movie": 35
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 59,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 9,
+    "movie": 36
+  }
+},
+{
+  "model": "movies.boxoffice",
+  "pk": 60,
+  "fields": {
+    "country": 7,
+    "year": 2019,
+    "weak": 18,
+    "rank": 10,
+    "movie": 37
+  }
 }
 ]
