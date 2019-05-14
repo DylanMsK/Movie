@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'rest_framework',
     'movies',
+    'api',
     # 'crawler'/,
 ]
 
