@@ -35,64 +35,16 @@
   "model": "movies.country",
   "pk": 5,
   "fields": {
-    "name": "Spain",
-    "code": "es"
-  }
-},
-{
-  "model": "movies.country",
-  "pk": 6,
-  "fields": {
-    "name": "Korea",
-    "code": "kr"
-  }
-},
-{
-  "model": "movies.country",
-  "pk": 7,
-  "fields": {
     "name": "China",
     "code": "cn"
   }
 },
 {
   "model": "movies.country",
-  "pk": 8,
-  "fields": {
-    "name": "Japan",
-    "code": "jp"
-  }
-},
-{
-  "model": "movies.country",
-  "pk": 9,
+  "pk": 6,
   "fields": {
     "name": "Australia",
     "code": "au"
-  }
-},
-{
-  "model": "movies.country",
-  "pk": 10,
-  "fields": {
-    "name": "Brazil",
-    "code": "br"
-  }
-},
-{
-  "model": "movies.country",
-  "pk": 11,
-  "fields": {
-    "name": "Mexico",
-    "code": "mx"
-  }
-},
-{
-  "model": "movies.country",
-  "pk": 12,
-  "fields": {
-    "name": "South Africa",
-    "code": "za"
   }
 }
 ]
