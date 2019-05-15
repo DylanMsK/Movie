@@ -1,0 +1,168 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container-fluid">
+    {% include 'nav.html' %}
+</div>
+
+<!-- top-bar -->
+<div class="top-bar">
+    <h1>Select your country</h1>
+</div>
+<!-- end top-bar -->
+
+<!-- portfolio div -->
+<div class="container">
+  <div class="portfolio-div">
+      <div class="portfolio">
+          <div class="no-padding portfolio_container">
+              <!-- United States -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.us.0 %}" class="portfolio_item">
+                      <img width=100% src="http://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-250.png" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>United States</span>
+                                  <!-- <em>{{movies.2.released}}</em> -->
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end United States -->
+
+              <!-- Australia -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.au.0 %}" class="portfolio_item">
+                      <img width=100% src="https://cdn.countryflags.com/thumbs/australia/flag-square-250.png" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>Australia</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end Australia -->
+
+              <!-- Netflix -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.0" class="portfolio_item">
+                      <img width=100% src="data:image/jpeg;base64,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" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>Netflix</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end Netflix -->
+
+              <!-- No.3 -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.0" class="portfolio_item">
+                      <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>{{movies.2.title}}</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end No.3 -->
+
+              <!-- No.3 -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.0" class="portfolio_item">
+                      <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>{{movies.2.title}}</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end No.3 -->
+
+              <!-- No.3 -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.0" class="portfolio_item">
+                      <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>{{movies.2.title}}</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end No.3 -->
+
+              <!-- No.3 -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.0" class="portfolio_item">
+                      <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>{{movies.2.title}}</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end No.3 -->
+
+              <!-- No.3 -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.0" class="portfolio_item">
+                      <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>{{movies.2.title}}</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end No.3 -->
+
+              <!-- No.3 -->
+              <div class="col-md-4 col-sm-6 white-border fashion logo">
+                  <a href="{% url 'movies:country_boxoffice' countries.0" class="portfolio_item">
+                      <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                      <div class="portfolio_item_hover">
+                          <div class="portfolio-border clearfix">
+                              <div class="item_info">
+                                  <span>{{movies.2.title}}</span>
+                                  <em>{{movies.2.released}}</em>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <!-- end No.3 -->
+          </div>
+          <!-- end portfolio_container -->
+      </div>
+      <!-- portfolio -->
+  </div>
+  <!-- end portfolio div -->
+</div>
+{% endblock %}

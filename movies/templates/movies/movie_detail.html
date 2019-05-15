@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+    <div class="container-fluid">
+        {% include 'nav.html' %}
+    </div>
+    
+    <!-- top-bar -->
+    <div class="top-bar">
+        <h1>{{movie.title}}</h1>
+        <p><a href="#">Home</a> / <a href="{% url 'movies:country_list' %}">Movies</a> / {{movie.title}}</p>
+    </div>
+    <!-- end top-bar -->
+    
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-12">
+            <div class="embed-responsive embed-responsive-16by9"> 
+                <video width="100%" poster="{{movie.trailer_img}}" controls>
+                    <source src="{{movie.trailer}}">
+                </video>
+            </div> 
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+            <h3>{{movie.title}}</h3>
+            <h5>{{movie.released}}</h5>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+            <p>{{movie.plot}}</p>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="row">
+            <!-- Director-box -->
+            <div class="col-md-4 service-box text-center">
+                <i class="ion-android-options size-50"></i>
+                <h3>Director</h3>
+                <div class="h-10"></div>
+                {% for director in directors %}
+                    <p>{{director}}</p>
+                {% endfor %}
+            </div>
+            <!-- end Director-box -->
+            
+            <!-- Actors-box -->
+            <div class="col-md-4 service-box text-center">
+                <i class="ion-android-favorite-outline size-50"></i>
+                <h3>Actors</h3>
+                <div class="h-10"></div>
+                {% for actor in actors %}
+                    <p>{{actor}}</p>
+                {% endfor %}
+            </div>
+            <!-- end Actors-box -->
+
+            <!-- Genre-box -->
+            <div class="col-md-4  service-box text-center">
+                <i class="ion-android-checkmark-circle size-50"></i>
+                <h3>Genre</h3>
+                <div class="h-10"></div>
+                {% for genre in genres %}
+                <p>{{genre}}</p>
+                {% endfor %}
+            </div>
+            <!-- end Genre-box -->
+        </div>
+
+        <div class="row">
+            <!-- Runtime-box -->
+            <div class="col-md-4  service-box text-center">
+                <i class="ion-ios-pulse-strong size-50"></i>
+                <h3>Runtime</h3>
+                <div class="h-10"></div>
+                <p>{{movie.runtime}}</p>
+            </div>
+            <!-- end Runtime-box -->
+
+            <!-- IMdbScore-box -->
+            <div class="col-md-4  service-box text-center">
+                <i class="ion-earth size-50"></i>
+                <h3>IMDb Score</h3>
+                <div class="h-10"></div>
+                <p>{{movie.imdbScore}}</p>
+            </div>
+            <!-- end service-box -->
+
+            <!-- Rated-box -->
+            <div class="col-md-4  service-box text-center">
+                <i class="ion-speedometer size-50"></i>
+                <h3>Rated</h3>
+                <div class="h-10"></div>
+                <p>{{movie.rated}}</p>
+            </div>
+        <!-- end Rated-box -->
+        </div>
+    </div>
+    <!-- end main-container -->
+
+{% endblock %}

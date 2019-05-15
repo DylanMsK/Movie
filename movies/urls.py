@@ -4,8 +4,9 @@ from . import views
 app_name = 'movies'
 
 urlpatterns = [
-    path('us/', views.us_boxoffice, name='us'),
-    # path('new/', views.new_movie, name='new_movie'),
-    # path('<str:country_name>/', views.country_box_office),
-    # path('<str:country_id>/<int:rank>/', views.movie_detail),
+    path('', views.country_list, name='country_list'),
+    path('netflix/', views.netflix_list, name='netflix_list'),
+    path('netflix/<int:rank>/', views.netflix_detail, name='netflix_detail'),
+    path('<str:country>/', views.country_boxoffice, name='country_boxoffice'),
+    path('<str:country>/<int:rank>/', views.country_detail, name='country_detail'),
 ]

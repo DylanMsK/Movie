@@ -13,7 +13,7 @@
                 <span class="box-words-wrapper">
                     <b class="is-visible">{{country_name}} </b>
                     <b>&nbsp;Box Office.</b>
-                    <b>{{date}}</b>
+                    <b>&nbsp;Movie</b>
                 </span>
             </h1>
             <h5>everything you watch blah balh blah</h5>
@@ -27,18 +27,18 @@
 </div>
 
 <!-- portfolio div -->
-<div class="portfolio-div">
+<div class="portfolio-div" style='background-color: #151313'>
     <div class="portfolio">
         <div class="no-padding portfolio_container">
             <!-- No.3 -->
-            <div class="col-md-3 col-sm-6  fashion logo">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+            <div class="col-md-3 col-sm-6 fashion logo">
+                <a href="{% url 'movies:country_detail' country=country rank=movies.2.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.2.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Mockups in seconds</span>
-                                <em>Fashion / Logo</em>
+                                <span>{{movies.2.title}}</span>
+                                <em>{{movies.2.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -48,13 +48,13 @@
 
             <!-- No.4 -->
             <div class="col-md-3 col-sm-6 ads graphics">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.3.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.3.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Floating mockups</span>
-                                <em>Ads / Graphics</em>
+                                <span>{{movies.3.title}}</span>
+                                <em>{{movies.3.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -63,14 +63,14 @@
             <!-- end No.4 -->
 
             <!-- No.1 -->
-            <div class="col-md-6 col-sm-12 photography">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="{{movies.0.trailer_img}}" style="height: 100%; width: auto;" alt="image" class="img-responsive" />
+            <div class="col-md-6 col-sm-12 photography" style="overflow: hidden">
+                <a href="{% url 'movies:country_detail' country=country rank=movies.0.rank %}" class="portfolio_item">
+                    <img style="width: 100%;" src="{{movies.0.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>{{movies.0.trailer_img}}</span>
-                                <em>Photography</em>
+                                <span>{{movies.0.title}}</span>
+                                <em>{{movies.0.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -80,13 +80,13 @@
 
             <!-- No.5 -->
             <div class="col-md-3 col-sm-6 fashion ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.4.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.4.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Held by hands</span>
-                                <em>Fashion / Ads</em>
+                                <span>{{movies.4.title}}</span>
+                                <em>{{movies.4.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -96,13 +96,13 @@
 
             <!-- No.6 -->
             <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.5.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.5.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
+                                <span>{{movies.5.title}}</span>
+                                <em>{{movies.5.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -112,13 +112,13 @@
 
             <!-- No.2 -->
             <div class="col-md-6 col-sm-12 photography">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.1.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.1.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Photorealistic smartwatch</span>
-                                <em>Photography</em>
+                                <span>{{movies.1.title}}</span>
+                                <em>{{movies.1.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -128,13 +128,13 @@
 
             <!-- No.7 -->
             <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.6.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.6.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
+                                <span>{{movies.6.title}}</span>
+                                <em>{{movies.6.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -144,13 +144,13 @@
 
             <!-- No.8 -->
             <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.7.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.7.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
+                                <span>{{movies.7.title}}</span>
+                                <em>{{movies.7.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -160,13 +160,13 @@
 
             <!-- No.9 -->
             <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.8.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.8.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
+                                <span>{{movies.8.title}}</span>
+                                <em>{{movies.8.released}}</em>
                             </div>
                         </div>
                     </div>
@@ -176,13 +176,13 @@
 
             <!-- No.10 -->
             <div class="col-md-3 col-sm-6 graphics ads">
-                <a href="single-project.html" class="portfolio_item">
-                    <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                <a href="{% url 'movies:country_detail' country=country rank=movies.9.rank %}" class="portfolio_item">
+                    <img style='width: 100%;' src="{{movies.9.poster}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">
                             <div class="item_info">
-                                <span>Mobile devices</span>
-                                <em>Graphics / Ads</em>
+                                <span>{{movies.9.title}}</span>
+                                <em>{{movies.9.released}}</em>
                             </div>
                         </div>
                     </div>

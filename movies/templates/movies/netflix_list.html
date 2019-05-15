@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container-fluid">
+  {% include 'nav.html' %}
+</div>
+
+<!-- top-bar -->
+<div class="top-bar">
+  <h1>Select your country</h1>
+</div>
+<!-- end top-bar -->
+
+<!-- portfolio div -->
+<div class="portfolio-div">
+    <div class="portfolio">
+        <div class="no-padding portfolio_container">
+            {% for series in serieses %}
+            <!-- United States -->
+            <div class="col-md-3 col-sm-4 col-xs-6 fashion logo">
+                <a href="" class="portfolio_item">
+                    <img width=100% src="{{series.thumbnail}}" alt="image" class="img-responsive" />
+                    <div class="portfolio_item_hover">
+                        <div class="portfolio-border clearfix">
+                            <div class="item_info">
+                                <span>{{series.title}}</span>
+                                <!-- <em>{{movies.2.released}}</em> -->
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- end United States -->
+            {% endfor %}
+        </div>
+        <!-- end portfolio_container -->
+    </div>
+    <!-- portfolio -->
+</div>
+<!-- end portfolio div -->
+{% endblock %}
