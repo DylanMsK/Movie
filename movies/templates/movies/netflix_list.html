@@ -7,7 +7,7 @@
 
 <!-- top-bar -->
 <div class="top-bar">
-  <h1>Select your country</h1>
+  <h1>Select your series</h1>
 </div>
 <!-- end top-bar -->
 
@@ -18,7 +18,7 @@
             {% for series in serieses %}
             <!-- United States -->
             <div class="col-md-3 col-sm-4 col-xs-6 fashion logo">
-                <a href="" class="portfolio_item">
+                <a href="{% url 'netflix_detail' rank=series.rank %}" class="portfolio_item">
                     <img width=100% src="{{series.thumbnail}}" alt="image" class="img-responsive" />
                     <div class="portfolio_item_hover">
                         <div class="portfolio-border clearfix">

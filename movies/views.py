@@ -10,6 +10,10 @@ import json
 countries = {'us': ['us', 'United States'], 'au': ['au', 'Australia']}
 
 # Create your views here.
+def index(request):
+    return render(request, 'movies/index.html')
+
+
 def country_list(request):
     context = {
         'countries': countries
@@ -38,7 +42,6 @@ def country_detail(request, country, rank):
 
 def netflix_list(request):
     serieses = TVSeries.objects.all()
-    print(serieses)
     context = {
         'serieses': serieses
     } 
@@ -47,6 +50,7 @@ def netflix_list(request):
 def netflix_detail(request, rank):
     series = get_object_or_404(TVSeries, rank=rank)
     context = {
-        'series': series
+        'series': series,
+        'actors': series.actors.split(',\xa0')
     }
     return render(request, 'movies/netflix_detail.html', context)

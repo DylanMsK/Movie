@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+    <div class="container-fluid">
+        {% include 'nav.html' %}
+    </div>
+    
+    <!-- top-bar -->
+    <div class="top-bar">
+        <h1>{{series.title}}</h1>
+        <p><a href="#">Home</a> / <a href="{% url 'movies:country_list' %}">Netflix</a> / {{series.title}}</p>
+    </div>
+    <!-- end top-bar -->
+    
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-12">
+            <div class="embed-responsive embed-responsive-16by9"> 
+              <iframe width="100" src="{{series.trailer}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> 
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+            <h3>{{series.title}}</h3>
+            <!-- <h5>{{series.released}}</h5> -->
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-12">
+            <p>{{series.plot}}</p>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="row">
+            <!-- Released-box -->
+            <div class="col-md-4 service-box text-center">
+                <i class="ion-android-options size-50"></i>
+                <h3>Released</h3>
+                <div class="h-10"></div>
+                <p>{{series.year}}</p>
+            </div>
+            <!-- end Released-box -->
+            
+            <!-- Rated-box -->
+            <div class="col-md-4 service-box text-center">
+                <i class="ion-android-favorite-outline size-50"></i>
+                <h3>Rated</h3>
+                <div class="h-10"></div>
+                <p>{{series.rated}}</p>
+            </div>
+            <!-- end Rated-box -->
+
+            <!-- Genre-box -->
+            <div class="col-md-4  service-box text-center">
+                <i class="ion-android-checkmark-circle size-50"></i>
+                <h3>Genre</h3>
+                <div class="h-10"></div>
+                <p>{{series.genre}}</p>
+            </div>
+            <!-- end Genre-box -->
+        </div>
+
+        <div class="row">
+            <!-- Seasons-box -->
+            <div class="col-md-4  service-box text-center">
+                <i class="ion-ios-pulse-strong size-50"></i>
+                <h3>Season</h3>
+                <div class="h-10"></div>
+                <p>{{series.season}}</p>
+            </div>
+            <!-- end Season-box -->
+
+            <!-- Actors-box -->
+            <div class="col-md-4  service-box text-center">
+                <i class="ion-earth size-50"></i>
+                <h3>Actors</h3>
+                <div class="h-10"></div>
+                {% for actor in actors %}
+                  <p>{{actor}}</p>
+                {% endfor %}
+            </div>
+            <!-- end Actors-box -->
+        </div>
+    </div>
+    <!-- end main-container -->
+
+{% endblock %}
