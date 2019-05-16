@@ -1,0 +1,342 @@
+[
+{
+  "model": "movies.tvseries",
+  "pk": 1,
+  "fields": {
+    "rank": "1",
+    "title": "Lucifer",
+    "netflix_url": "https://www.netflix.com/title/80057918",
+    "year": "2016",
+    "rated": "18",
+    "season": "4 Seasons",
+    "genre": "TV Sci-Fi & Fantasy",
+    "plot": "Bored with being the Lord of Hell, the devil relocates to Los Angeles, where he opens a nightclub and forms a connection with a homicide detective.",
+    "actors": "Tom Ellis,\u00a0Lauren German,\u00a0Kevin Alejandro",
+    "trailer": "https://www.youtube.com/embed/KRQb74Cr9N0",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/572a7/38d4ffd82996ca1c90f93bee8c5becb4618572a7.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 2,
+  "fields": {
+    "rank": "2",
+    "title": "I Think You Should Leave with Tim Robinson",
+    "netflix_url": "https://www.netflix.com/title/80986854",
+    "year": "2019",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "US TV Shows",
+    "plot": "There is no such thing as an ordinary interaction in this offbeat sketch comedy series that features a deep roster of guest stars.",
+    "actors": "Tim Robinson,\u00a0Andy Samberg,\u00a0Sam Richardson",
+    "trailer": "https://www.youtube.com/embed/vrZkGgoVSFk",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/5f307/f0b0ee6f209b138136bb416b66ad0199b815f307.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 3,
+  "fields": {
+    "rank": "3",
+    "title": "Sex Education",
+    "netflix_url": "https://www.netflix.com/title/80197526",
+    "year": "2018",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "Teen TV Shows",
+    "plot": "Insecure Otis has all the answers when it comes to sex advice, thanks to his therapist mom. So rebel Maeve proposes a school sex-therapy clinic.",
+    "actors": "Asa Butterfield,\u00a0Gillian Anderson,\u00a0Ncuti Gatwa",
+    "trailer": "https://www.youtube.com/embed/o308rJlWKUc",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/9bbb0/f1ec852c96c0ce6e5d73b8c68d2bb00eb359bbb0.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 4,
+  "fields": {
+    "rank": "4",
+    "title": "You",
+    "netflix_url": "https://www.netflix.com/title/80211991",
+    "year": "2018",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "Romantic TV Shows",
+    "plot": "Obsessed with an aspiring writer, a charming bookstore manager goes to extreme measures to insert himself into her life.",
+    "actors": "Penn Badgley,\u00a0Elizabeth Lail,\u00a0Shay Mitchell",
+    "trailer": "https://www.youtube.com/embed/ga1m0wjzscU",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/13e43/791331f7de8ecf4ab710f322252dcb715f013e43.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 5,
+  "fields": {
+    "rank": "5",
+    "title": "Conversations with a Killer: The Ted Bundy Story",
+    "netflix_url": "https://www.netflix.com/title/80226612",
+    "year": "2019",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "US TV Shows",
+    "plot": "Present-day interviews, archival footage and audio recordings made on death row form a searing portrait of notorious serial killer Ted Bundy.",
+    "actors": "",
+    "trailer": "https://www.youtube.com/embed/n1UJgrNRcvI",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/e2041/723dc80c79c04f250a8e3032ff8031f6537e2041.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 6,
+  "fields": {
+    "rank": "6",
+    "title": "Russian Doll",
+    "netflix_url": "https://www.netflix.com/title/80211627",
+    "year": "2019",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "US TV Shows",
+    "plot": "Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.",
+    "actors": "Natasha Lyonne,\u00a0Charlie Barnett,\u00a0Yul Vazquez",
+    "trailer": "https://www.youtube.com/embed/GER6akzxZ9Q",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/d7f4f/bc411e0701af8bf42a26612a9f44be81db7d7f4f.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 7,
+  "fields": {
+    "rank": "7",
+    "title": "The Umbrella Academy",
+    "netflix_url": "https://www.netflix.com/title/80186863",
+    "year": "2019",
+    "rated": "15",
+    "season": "1 Season",
+    "genre": "TV Sci-Fi & Fantasy",
+    "plot": "Reunited by their father's death, estranged siblings with extraordinary powers uncover shocking family secrets -- and a looming threat to humanity.",
+    "actors": "Ellen Page,\u00a0Tom Hopper,\u00a0David Casta\u00f1eda",
+    "trailer": "https://www.youtube.com/embed/0DAmWHxeoKw",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/ae16a/0344fde1e813d3fabd78ac6d88315ae6a1eae16a.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 8,
+  "fields": {
+    "rank": "8",
+    "title": "Stranger Things",
+    "netflix_url": "https://www.netflix.com/title/80077368",
+    "year": "2016",
+    "rated": "15",
+    "season": "2 Seasons",
+    "genre": "TV Sci-Fi & Fantasy",
+    "plot": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+    "actors": "Winona Ryder,\u00a0David Harbour,\u00a0Finn Wolfhard",
+    "trailer": "https://www.youtube.com/embed/YEG3bmU_WaI",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/f403f/4732cc480241f5bbe13134e6adc1f382f00f403f.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 9,
+  "fields": {
+    "rank": "9",
+    "title": "BoJack Horseman",
+    "netflix_url": "https://www.netflix.com/title/70300800",
+    "year": "2014",
+    "rated": "18",
+    "season": "5 Seasons",
+    "genre": "Award-winning TV Shows",
+    "plot": "Meet the most beloved sitcom horse of the '90s, 20 years later. He\u2019s a curmudgeon with a heart of...not quite gold...but something like gold. Copper?",
+    "actors": "Will Arnett,\u00a0Aaron Paul,\u00a0Amy Sedaris",
+    "trailer": "https://www.youtube.com/embed/IW3T7GEHs_8",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/69a38/39ca267a00f236b8fb240874fc08247e40d69a38.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 10,
+  "fields": {
+    "rank": "10",
+    "title": "Evil Genius",
+    "netflix_url": "https://www.netflix.com/title/80158319",
+    "year": "2018",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "US TV Shows",
+    "plot": "This baffling true crime story starts with the grisly death of a pizza man who robs a bank with a bomb around his neck -- and gets weirder from there.",
+    "actors": "",
+    "trailer": "https://www.youtube.com/embed/Qpdb9zo_1t8",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/230eb/1ca0dddde23db9be2240654224d6b76fc9e230eb.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 11,
+  "fields": {
+    "rank": "11",
+    "title": "On My Block",
+    "netflix_url": "https://www.netflix.com/title/80117809",
+    "year": "2018",
+    "rated": "18",
+    "season": "2 Seasons",
+    "genre": "Romantic TV Shows",
+    "plot": "In a rough inner-city Los Angeles neighborhood, four smart, funny and streetwise teens find their lifelong friendship tested as they begin high school.",
+    "actors": "Sierra Capri,\u00a0Jason Genao,\u00a0Brett Gray",
+    "trailer": "https://www.youtube.com/embed/ed0T7VbJXs0",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/8ae81/dfd9900ed232d291a842abd809c1e893d978ae81.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 12,
+  "fields": {
+    "rank": "12",
+    "title": "Big Mouth",
+    "netflix_url": "https://www.netflix.com/title/80117038",
+    "year": "2017",
+    "rated": "18",
+    "season": "3 Seasons",
+    "genre": "US TV Shows",
+    "plot": "Teenage friends find their lives upended by the wonders and horrors of puberty in this edgy comedy from real-life pals Nick Kroll and Andrew Goldberg.",
+    "actors": "Nick Kroll,\u00a0John Mulaney,\u00a0Jessi Klein",
+    "trailer": "https://www.youtube.com/embed/4QUix4Hdyps",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/c613e/912277a0c7b400ed409999dc2ce631ea460c613e.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 13,
+  "fields": {
+    "rank": "13",
+    "title": "Lovesick",
+    "netflix_url": "https://www.netflix.com/title/80041601",
+    "year": "2014",
+    "rated": "18",
+    "season": "3 Seasons",
+    "genre": "Romantic TV Shows",
+    "plot": "In his quest for true love, Dylan found chlamydia. Joined by friends Evie and Luke, he relives past encounters as he notifies all his former partners.",
+    "actors": "Johnny Flynn,\u00a0Antonia Thomas,\u00a0Daniel Ings",
+    "trailer": "https://www.youtube.com/embed/eggOiXsTX9U",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/33417/db284d79f0343f7c59a1bbe71183aab8e7d33417.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 14,
+  "fields": {
+    "rank": "14",
+    "title": "Ozark",
+    "netflix_url": "https://www.netflix.com/title/80117552",
+    "year": "2017",
+    "rated": "18",
+    "season": "2 Seasons",
+    "genre": "US TV Shows",
+    "plot": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
+    "actors": "Jason Bateman,\u00a0Laura Linney,\u00a0Sofia Hublitz",
+    "trailer": "https://www.youtube.com/embed/0vHziRrCYqA",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/ae9b6/9b96627ec7b6295a762b4b1d228c1b02996ae9b6.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 15,
+  "fields": {
+    "rank": "15",
+    "title": "Narcos: Mexico",
+    "netflix_url": "https://www.netflix.com/title/80997085",
+    "year": "2018",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "TV Action & Adventure",
+    "plot": "Witness the birth of the Mexican drug war in the 1980s as a gritty new \"Narcos\" saga chronicles the true story of the Guadalajara cartel's ascent.",
+    "actors": "Michael Pe\u00f1a,\u00a0Diego Luna,\u00a0Tenoch Huerta",
+    "trailer": "https://www.youtube.com/embed/VBLcYJ7C4F0",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/e31bc/eeda00874a98290f6ff4b3d8d617c05b332e31bc.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 16,
+  "fields": {
+    "rank": "16",
+    "title": "The Staircase",
+    "netflix_url": "https://www.netflix.com/title/80233441",
+    "year": "2018",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "True Crime Documentaries",
+    "plot": "Accident or murder? After the mysterious death of his wife, author Michael Peterson watches his life go under the microscope.",
+    "actors": "",
+    "trailer": "https://www.youtube.com/embed/Bvv97sCcruY",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/b995c/bab3c4a39278609938eb2854b8c8b805854b995c.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 17,
+  "fields": {
+    "rank": "17",
+    "title": "Magic for Humans",
+    "netflix_url": "https://www.netflix.com/title/80190510",
+    "year": "2018",
+    "rated": "15",
+    "season": "1 Season",
+    "genre": "Variety Entertainment",
+    "plot": "From baffling people on the street to orchestrating elaborate tricks, Justin Willman blends good-natured magic with grown-up laughs.",
+    "actors": "Justin Willman",
+    "trailer": "https://www.youtube.com/embed/pvFqi-YFWe8",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/fccb6/4182dfdfa7fa8959c4eae8cf4a3b89526b2fccb6.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 18,
+  "fields": {
+    "rank": "18",
+    "title": "Godless",
+    "netflix_url": "https://www.netflix.com/title/80097141",
+    "year": "2017",
+    "rated": "18",
+    "season": "1 Season",
+    "genre": "Award-winning TV Shows",
+    "plot": "A ruthless outlaw terrorizes the West in search of a former member of his gang, who\u2019s found a new life in a quiet town populated only by women.",
+    "actors": "Jeff Daniels,\u00a0Michelle Dockery,\u00a0Jack O'Connell",
+    "trailer": "https://www.youtube.com/embed/CrlZCRncCwA",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/f22fa/8f12983cc21999da64654a7e7770c08676ff22fa.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 19,
+  "fields": {
+    "rank": "19",
+    "title": "Disenchantment",
+    "netflix_url": "https://www.netflix.com/title/80095697",
+    "year": "2018",
+    "rated": "15",
+    "season": "1 Season",
+    "genre": "TV Sci-Fi & Fantasy",
+    "plot": "Princess duties call, but she'd rather be drinking. Free-spirited Bean exasperates the king as she wreaks havoc with her demon and elf pals.",
+    "actors": "Abbi Jacobson,\u00a0Eric Andr\u00e9,\u00a0Nat Faxon",
+    "trailer": "https://www.youtube.com/embed/Gp_RnJcb8Ig",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/a0a0d/13df51af52517796b089db592043d519129a0a0d.jpg"
+  }
+},
+{
+  "model": "movies.tvseries",
+  "pk": 20,
+  "fields": {
+    "rank": "20",
+    "title": "My Next Guest Needs No Introduction",
+    "netflix_url": "https://www.netflix.com/title/80209096",
+    "year": "2018",
+    "rated": "15",
+    "season": "1 Season",
+    "genre": "US TV Shows",
+    "plot": "TV legend David Letterman teams up with fascinating global figures for in-depth interviews and curiosity-fueled excursions in this talk show.",
+    "actors": "President Barack Obama,\u00a0George Clooney,\u00a0Malala Yousafzai",
+    "trailer": "https://www.youtube.com/embed/ctBVhyZxXYY",
+    "thumbnail": "https://occ-0-1360-1009.1.nflxso.net/art/4a270/c0c67fab11a4821d12228f3d6634159cd2a4a270.jpg"
+  }
+}
+]
