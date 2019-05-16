@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'm-tife4yajnqtpi7eg)d_+a83-sfg=nxj-vmf91mnvacizqt5b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['movie-recomend-dylankang.c9users.io', 'watch-what-u-want.herokuapp.com']
 
@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['movie-recomend-dylankang.c9users.io', 'watch-what-u-want.herok
 INSTALLED_APPS = [
     'suit',
     'django.contrib.admin',
+    'import_export',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -44,6 +45,8 @@ INSTALLED_APPS = [
     'movies',
     # 'crawler'/,
 ]
+
+IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

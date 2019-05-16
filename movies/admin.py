@@ -1,9 +1,10 @@
+from import_export.admin import ImportExportModelAdmin
 from django.contrib import admin
 from .models import Movie, TVSeries
 
 
 # Register your models here.
-class MovieAdmin(admin.ModelAdmin):
+class MovieAdmin(ImportExportModelAdmin):
     list_per_page = 20
     list_display = ('id', 'country', 'rank', 'title', 'genre', 'released', )
     list_filter = ('country', 'rank', )
@@ -11,7 +12,7 @@ class MovieAdmin(admin.ModelAdmin):
     ordering = ('id', 'rank',)
 
 
-class TVSeriesAdmin(admin.ModelAdmin):
+class TVSeriesAdmin(ImportExportModelAdmin):
     list_per_page = 20
     list_display = ('id', 'rank', 'title', 'season',)
     search_fields = ('title', 'genre',)
