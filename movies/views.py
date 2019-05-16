@@ -7,7 +7,12 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-countries = {'us': ['us', 'United States'], 'au': ['au', 'Australia']}
+countries = {'us': ['us', 'United States', 'https://cdn.countryflags.com/thumbs/united-states-of-america/flag-800.png'],
+             'uk': ['uk', 'United Kingdom', 'https://cdn.countryflags.com/thumbs/united-kingdom/flag-800.png'],
+             'fr': ['fr', 'France', 'https://cdn.countryflags.com/thumbs/france/flag-800.png'],
+             'au': ['au', 'Australia', 'https://cdn.countryflags.com/thumbs/australia/flag-800.png'],
+             'br': ['br', 'Brazil', 'https://cdn.countryflags.com/thumbs/brazil/flag-800.png'],
+             'mx': ['mx', 'Mexico', 'https://cdn.countryflags.com/thumbs/mexico/flag-800.png'],}
 
 # Create your views here.
 def index(request):
@@ -25,6 +30,7 @@ def country_boxoffice(request, country):
     movies = get_list_or_404(Movie, country=country)
     context = {
         'country': country,
+        'flag': countries[country][2],
         'country_name': countries[country][1],
         'movies': movies,
     }
@@ -33,6 +39,8 @@ def country_boxoffice(request, country):
 def country_detail(request, country, rank):
     movie = Movie.objects.filter(country__exact=country, rank__exact=rank).first()
     context = {
+        'country': country,
+        'country_name': countries[country][1],
         'movie': movie,
         'directors': movie.director.split(', '),
         'actors': movie.actors.split(', '),

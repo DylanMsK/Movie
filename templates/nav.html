@@ -3,7 +3,7 @@
 <!-- box header -->
 <header class="box-header">
     <div class="box-logo">
-        <a href="index.html"><img src="{% static 'img/logo.png' %}" width="80" alt="Logo"></a>
+        <a href="{% url 'index' %}"><img src="{% static 'img/logo.png' %}" width="80" alt="Logo"></a>
     </div>
     <!-- box-nav -->
     <a class="box-primary-nav-trigger" href="#0">
@@ -16,15 +16,11 @@
 <!-- nav -->
 <nav>
     <ul class="box-primary-nav">
-        <li class="box-label">About me</li>
+        <li><a class='box-label' href="{% url 'index' %}">Home</a></li>
+        <li class="box-label">Watches</li>
         
-        <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="services.html">services</a></li>
-        <li><a href="portfolio.html">portfolio</a></li>
-        <li><a href="contact.html">contact me</a></li>
-        
-        
+        <li><a href="{% url 'movies:country_list' %}">Movies</a></li>
+        <li><a href="{% url 'netflix_list' %}">Netflix</a></li>
         
         <li class="box-label">Follow me</li>
         

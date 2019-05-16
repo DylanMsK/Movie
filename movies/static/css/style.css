@@ -39,6 +39,9 @@ body {
     line-height: 1.8;
     color: #999
 }
+.plot {
+    font-size: 2rem;
+}
 
 .no-padding {
     padding-left: 0;
@@ -87,7 +90,9 @@ a {
 h1 {
     color: #393939;
     font-size: 60px;
-    text-transform: uppercase;
+    word-spacing: .8rem;
+    letter-spacing: .4rem;
+    /* text-transform: uppercase; */
 }
 
 h3 {
@@ -96,6 +101,7 @@ h3 {
 
 h5 {
     color: #ffbf00;
+    font-size: 2rem;
 }
 
 
@@ -178,7 +184,7 @@ h5 {
 ==================================================*/
 
 .box-header {
-    position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
     background: rgba(255, 255, 255, 0.95);
@@ -240,7 +246,7 @@ h5 {
 
 .box-primary-nav-trigger .box-menu-text {
     color: #393939;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
     display: none;
 }
@@ -444,7 +450,7 @@ b i:last-child {
 
 .box-intro h5 {
     letter-spacing: 4px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #999;
     line-height: 1.7
 }
@@ -535,6 +541,7 @@ b i:last-child {
 .box-words-wrapper {
     display: inline-block;
     position: relative;
+    text-align: center;
 }
 
 .box-words-wrapper b {
@@ -889,10 +896,11 @@ footer img {
 ==================================================*/
 
 .top-bar {
-    color: #333;
+    /* color: #333; */
+    color: white;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    background: -webkit-linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(https://i.ytimg.com/vi/UMH0lMvW5m8/maxresdefault.jpg);
+    background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(https://i.ytimg.com/vi/UMH0lMvW5m8/maxresdefault.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -901,15 +909,15 @@ footer img {
 
 .top-bar h1 {
     font-size: 60px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
-    color: #999;
+    color: #ffffffeb;
     line-height: 50px;
 }
 
 .top-bar p {
     font-size: 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 500;
     color: #777;
 }

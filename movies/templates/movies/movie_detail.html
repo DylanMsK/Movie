@@ -9,7 +9,7 @@
     <!-- top-bar -->
     <div class="top-bar">
         <h1>{{movie.title}}</h1>
-        <p><a href="#">Home</a> / <a href="{% url 'movies:country_list' %}">Movies</a> / {{movie.title}}</p>
+        <p><a href="{% url 'index' %}">Home</a> / <a href="{% url 'movies:country_list' %}">Movies</a> / <a href="{% url 'movies:country_boxoffice' country=country %}">{{country_name}}</a> / {{movie.title}}</p>
     </div>
     <!-- end top-bar -->
     
@@ -31,7 +31,7 @@
         </div>
 
         <div class="col-md-12">
-            <p>{{movie.plot}}</p>
+            <p class='plot'>{{movie.plot}}</p>
             <div class="h-30"></div>
         </div>
 

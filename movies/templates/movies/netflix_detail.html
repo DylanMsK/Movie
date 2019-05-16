@@ -7,9 +7,12 @@
     </div>
     
     <!-- top-bar -->
-    <div class="top-bar">
+    <div class="top-bar" style="padding-bottom: 100px;">
         <h1>{{series.title}}</h1>
-        <p><a href="#">Home</a> / <a href="{% url 'movies:country_list' %}">Netflix</a> / {{series.title}}</p>
+        <p><a href="{% url 'index' %}">Home</a> / <a href="{% url 'netflix_list' %}">Netflix</a> / {{series.title}}</p>
+        <div class='h-30'></div>
+        <a href="{{series.netflix_url}}" type='button' class='btn btn-danger btn-lg'>Watch on Netflix</a>
+        
     </div>
     <!-- end top-bar -->
     
