@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.conf.urls import handler404
+from django.conf.urls import handler404, handler500
 
 from movies import views as movies_views
 
@@ -29,3 +29,4 @@ urlpatterns = [
 ]
 
 handler404 = 'movies.views.page_not_found'
+handler500 = 'movies.views.server_error'

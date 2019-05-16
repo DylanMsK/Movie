@@ -65,3 +65,6 @@ def netflix_detail(request, rank):
     
 def page_not_found(request):
     return render(request, 'movies/404.html')
+    
+def server_error(request):
+    return render(request, 'movies/404.html')
