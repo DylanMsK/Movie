@@ -26,7 +26,7 @@ SECRET_KEY = 'm-tife4yajnqtpi7eg)d_+a83-sfg=nxj-vmf91mnvacizqt5b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['movie-recomend-dylankang.c9users.io', 'watch-what-u-want.herokuapp.com']
 
 
 # Application definition
