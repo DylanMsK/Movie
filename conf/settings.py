@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'm-tife4yajnqtpi7eg)d_+a83-sfg=nxj-vmf91mnvacizqt5b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['movie-recomend-dylankang.c9users.io', 'watch-what-u-want.herokuapp.com']
 
