@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import handler404
+
 from movies import views as movies_views
+
 
 urlpatterns = [
     path('', movies_views.index, name='index'),
@@ -24,3 +27,5 @@ urlpatterns = [
     path('netflix/<int:rank>/', movies_views.netflix_detail, name='netflix_detail'),
     path('movies/', include('movies.urls')),
 ]
+
+handler404 = 'movies.views.page_not_found'
