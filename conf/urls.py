@@ -15,12 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import handler404, handler500
+
 from movies import views as movies_views
+
 
 urlpatterns = [
     path('', movies_views.index, name='index'),
-    path('admin/', admin.site.urls),
+    path('godmin/', admin.site.urls),
     path('netflix/', movies_views.netflix_list, name='netflix_list'),
     path('netflix/<int:rank>/', movies_views.netflix_detail, name='netflix_detail'),
     path('movies/', include('movies.urls')),
 ]
+
+handler404 = 'movies.views.page_not_found'
+handler500 = 'movies.views.server_error'
