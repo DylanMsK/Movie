@@ -37,7 +37,7 @@ def country_boxoffice(request, country):
     return render(request, 'movies/country_boxoffice.html', context)
 
 def country_detail(request, country, rank):
-    movie = Movie.objects.filter(country__exact=country, rank__exact=rank).first()
+    movie = get_object_or_404(Movie, country=country, rank=rank)
     context = {
         'country': country,
         'country_name': countries[country][1],
